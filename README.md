@@ -7,7 +7,7 @@ This repository contains Python code developed using the Kubernetes Python clien
 You can run the Python script as follows:
 
 ```shell
-python hc8.py
+python3 k8s_health_check.py
 
 By default, the script will look for the default kubeconfig file. Optionally, you can specify a different kubeconfig file using the -c or --config option.
 
@@ -20,4 +20,4 @@ By default, the script will look for the default kubeconfig file. Optionally, yo
 
 To run the script with a custom kubeconfig file, use the following command:
 ```shell
-python hc8.py -c /path/to/custom-kubeconfig.yaml
+python k8s_health_check.py -c /path/to/custom-kubeconfig.yaml
